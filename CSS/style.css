@@ -1,0 +1,135 @@
+/*Estilos generales*/
+body {
+  font-family: Arial, sans-serif;
+}
+
+/*Barra de navegacion*/
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.text-center {
+  padding-bottom: 30px;
+}
+
+/*Tarjetas de producto*/
+.product-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 400px; /* Aumenta la altura de la tarjeta */
+}
+
+.product-card img {
+  height: 200px; /* Aumenta la altura de la imagen */
+  object-fit: contain; /* Ajusta la imagen para que se adapte */
+}
+
+.fa-whatsapp,
+.fa-facebook {
+  font-size: 2rem; /* Tamaño de íconos más grandes */
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* Banner principal*/
+.hero-section {
+  background: url("../images/view-round-modern-webcam-with-copy-space.jpg")
+    no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.product-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  border-radius: 10px 10px 0 0;
+}
+
+/*Seccion de contacto*/
+#contact {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-info i {
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form .form-control {
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  box-shadow: none;
+}
+
+.contact-form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.contact-form button {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.1rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.highlight {
+  color: #235bf5;
+}
